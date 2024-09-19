@@ -1,0 +1,54 @@
+body {
+    font-family: 'Vazir', sans-serif;
+    background-color: #e8f5e9;
+}
+.card {
+    border: 2px solid #d2a679;
+    position: relative;
+    overflow: hidden;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #fff8f0;
+}
+.card::before, .card::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 8px;
+    background: linear-gradient(90deg, #d2a679, #fff8f0, #d2a679);
+}
+.card::before {
+    top: 0;
+}
+.card::after {
+    bottom: 0;
+}
+.card-content > *:not(:last-child) {
+    border-bottom: 1px solid #d2a679;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+table th, table td {
+    text-align: right;
+}
+.btn-animate {
+    background-color: #a57f47;
+}
+.btn-animate:hover {
+    background-color: #4caf50;
+}
+.book-cover {
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+}
+.book-details {
+    flex: 1;
+}
+.book-info {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}

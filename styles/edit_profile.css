@@ -1,0 +1,68 @@
+body {
+    font-family: 'Vazir', sans-serif;
+    background-color: #e8f5e9;
+    direction: rtl;
+    line-height: 1.6;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #4CAF50;
+}
+
+.nav-item i {
+    margin-left: 10px;
+}
+
+.content {
+    margin-right: 200px;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+    text-align: right;
+}
+
+.user-info h2 {
+    margin-bottom: 15px;
+}
+
+.user-info p {
+    margin-bottom: 5px;
+}
+
+.text-rtl {
+    text-align: right;
+}
