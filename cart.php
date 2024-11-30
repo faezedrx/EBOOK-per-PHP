@@ -121,7 +121,7 @@ include 'sidebar.php';
 </html>
 
     <?php
-    // آزادسازی منابع و بستن اتصال
+    //آزادسازی منابع
     $result2->free();
     $conn->close();
     ?>
